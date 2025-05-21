@@ -1,0 +1,88 @@
+# Hello World Web Server
+
+A simple Go web server that responds with a personalized "Hello" message based on the URL path.
+
+## Project Structure
+
+```
+Hello_wold_web_server/
+  Server.go
+```
+
+- [`Server.go`](Server.go): Main Go source file containing the web server implementation.
+
+## Getting Started
+
+### Prerequisites
+
+- [Go](https://golang.org/dl/) 1.13 or higher installed on your system.
+
+### Building the Server
+
+1. Open a terminal and navigate to the project directory:
+
+   ```sh
+   cd c:\GO_projects\Hello_wold_web_server
+   ```
+
+2. Build the server (optional, Go can run files directly):
+
+   ```sh
+   go build Server.go
+   ```
+
+   This will produce an executable named `Server.exe` (on Windows).
+
+### Running the Server
+
+You can run the server directly with:
+
+```sh
+go run Server.go
+```
+
+Or, if you built the executable:
+
+```sh
+./Server.exe
+```
+
+The server will start and listen on port `8081`.
+
+## Usage
+
+Open your web browser and navigate to:
+
+```
+http://localhost:8081/YourName
+```
+
+Replace `YourName` with any string. The server will respond with:
+
+```
+Hello YourName
+```
+
+For example, visiting `http://localhost:8081/Subhranil` will display:
+
+```
+Hello Subhranil
+```
+
+Visiting the root path (`http://localhost:8081/`) will display:
+
+```
+Hello 
+```
+
+## Code Overview
+
+The main logic is in [`Server.go`](Server.go):
+
+- The `main` function sets up an HTTP handler for all paths (`/`) using the [`SimpleServer`](Server.go) function.
+- [`SimpleServer`](Server.go) extracts the path from the request and writes a "Hello" message to the response.
+
+
+## Author
+
+- Subhranil Mondal
