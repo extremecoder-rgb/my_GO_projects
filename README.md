@@ -8,7 +8,7 @@ Welcome to my Go programming projects repository! This collection showcases vari
 A simple HTTP server implementation in Go that serves as a basic introduction to web development using Go's standard libraries.
 
 ### 2. SysInfo
-A comprehensive system information utility that provides detailed information about your computer's hardware and operating system. 
+A script to fetch and display system information.
 
 ## Getting Started
 
