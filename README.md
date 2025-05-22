@@ -10,6 +10,9 @@ A simple HTTP server implementation in Go that serves as a basic introduction to
 ### 2. SysInfo
 A script to fetch and display system information.
 
+### 3. Log Parser
+A script to parse and analyze log files.
+
 ## Getting Started
 
 Each project has its own directory with specific instructions, dependencies, and documentation. Navigate to the project's directory you're interested in to learn more.
@@ -25,7 +28,7 @@ To use any project in this repository:
 
 1. Clone the repository:
    ```bash
-   git clone [repository-url]
+   git clone https://github.com/extremecoder-rgb/my_GO_projects
    ```
 
 2. Navigate to the specific project directory:
